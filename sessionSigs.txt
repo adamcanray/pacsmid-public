@@ -1,0 +1,90 @@
+```
+sessionSigs: {
+    'https://cayenne.litgateway.com:7370': {
+        sig: '3693f19956c071e20c51d07c957a3a2b580a6c5356b0db53ca80d362422c30c7905bd5ba242235655d3ed038b04b626c8995b1292c6b85e614d4360b0ea4b405',
+        derivedVia: 'litSessionSignViaNacl',
+        signedMessage: '{"sessionKey":"98d56ec67d15a4d924197b3e4e56c8f9a86859f7364c49ee926986603e982ca8","resourceAbilityRequests":[{"resource":{"resource":"3c6f6fbb473d27fa78b234dfab3a1e0c1c721ad20e6a747ee9ceb733ef4ac138","resourcePrefix":"lit-accesscontrolcondition"},"ability":"access-control-condition-decryption"}],"capabilities":[{"sig":"0x5af665fb5c1dd8d7563c7023b7e44495e62e64c197c19e439dfbfa54b6d00527176d9be3273fc741bdfabea2e07e7ca22564288606b1ca675eab8687fdd9f3e51c","derivedVia":"web3.eth.personal.sign via Lit PKP","signedMessage":"litprotocol.com wants you to sign in with your Ethereum account:\\n0x9aCb7dC862E530582b6B9379AF5bBc73316A1DFa\\n\\nLit Protocol PKP session signature I further authorize the stated URI to perform the following actions on my behalf:\\n\\nURI: lit:session:4f17d4b64ace3d2bac70b65eaea98b2922681e420795be96fa0f7ce785517763\\nVersion: 1\\nChain ID: 1\\nNonce: 0xd7e2db28f055257ead83c3a5ca1a4c8f721c0c9859120eb92d0dba739f7c212b\\nIssued At: 2024-03-17T18:45:47Z\\nExpiration Time: 2024-03-18T18:45:56.312Z\\nResources:\\n- urn:recap:eyJhdHQiOnt9LCJwcmYiOltdfQ","address":"0x9aCb7dC862E530582b6B9379AF5bBc73316A1DFa"}],"issuedAt":"2024-03-17T18:46:01.779Z","expiration":"2024-03-17T18:51:01.779Z","nodeAddress":"https://cayenne.litgateway.com:7370"}',
+        address: '98d56ec67d15a4d924197b3e4e56c8f9a86859f7364c49ee926986603e982ca8',
+        algo: 'ed25519'
+    },
+    'https://cayenne.litgateway.com:7371': {
+        sig: '86a118c4ac1406ddd5313ab00edcf5fc34859ce5e067b3342406750716ebe65f88d037876959b2f93cbee808a42e31e510d60545b199578c42502d682c23d10a',
+        derivedVia: 'litSessionSignViaNacl',
+        signedMessage: '{"sessionKey":"98d56ec67d15a4d924197b3e4e56c8f9a86859f7364c49ee926986603e982ca8","resourceAbilityRequests":[{"resource":{"resource":"3c6f6fbb473d27fa78b234dfab3a1e0c1c721ad20e6a747ee9ceb733ef4ac138","resourcePrefix":"lit-accesscontrolcondition"},"ability":"access-control-condition-decryption"}],"capabilities":[{"sig":"0x5af665fb5c1dd8d7563c7023b7e44495e62e64c197c19e439dfbfa54b6d00527176d9be3273fc741bdfabea2e07e7ca22564288606b1ca675eab8687fdd9f3e51c","derivedVia":"web3.eth.personal.sign via Lit PKP","signedMessage":"litprotocol.com wants you to sign in with your Ethereum account:\\n0x9aCb7dC862E530582b6B9379AF5bBc73316A1DFa\\n\\nLit Protocol PKP session signature I further authorize the stated URI to perform the following actions on my behalf:\\n\\nURI: lit:session:4f17d4b64ace3d2bac70b65eaea98b2922681e420795be96fa0f7ce785517763\\nVersion: 1\\nChain ID: 1\\nNonce: 0xd7e2db28f055257ead83c3a5ca1a4c8f721c0c9859120eb92d0dba739f7c212b\\nIssued At: 2024-03-17T18:45:47Z\\nExpiration Time: 2024-03-18T18:45:56.312Z\\nResources:\\n- urn:recap:eyJhdHQiOnt9LCJwcmYiOltdfQ","address":"0x9aCb7dC862E530582b6B9379AF5bBc73316A1DFa"}],"issuedAt":"2024-03-17T18:46:01.779Z","expiration":"2024-03-17T18:51:01.779Z","nodeAddress":"https://cayenne.litgateway.com:7371"}',
+        address: '98d56ec67d15a4d924197b3e4e56c8f9a86859f7364c49ee926986603e982ca8',
+        algo: 'ed25519'
+    },
+    'https://cayenne.litgateway.com:7372': {
+        sig: '10449fc01780773b3f2a4a2de971830d0263ac62ddfd2250fa1690c947c0336eef46ad14896150136e32f28c200a43941c4dd7039dd72bd5e29037ec4eb1c902',
+        derivedVia: 'litSessionSignViaNacl',
+        signedMessage: '{
+            "sessionKey":"98d56ec67d15a4d924197b3e4e56c8f9a86859f7364c49ee926986603e982ca8",
+            "resourceAbilityRequests":[{
+                "resource":{
+                    "resource":"3c6f6fbb473d27fa78b234dfab3a1e0c1c721ad20e6a747ee9ceb733ef4ac138",
+                    "resourcePrefix":"lit-accesscontrolcondition"
+                },
+                "ability":"access-control-condition-decryption"
+            }],
+            "capabilities":[{
+                "sig":"0x5af665fb5c1dd8d7563c7023b7e44495e62e64c197c19e439dfbfa54b6d00527176d9be3273fc741bdfabea2e07e7ca22564288606b1ca675eab8687fdd9f3e51c",
+                "derivedVia":"web3.eth.personal.sign via Lit PKP",
+                "signedMessage":"litprotocol.com wants you to sign in with your Ethereum account:\\n0x9aCb7dC862E530582b6B9379AF5bBc73316A1DFa\\n\\nLit Protocol PKP session signature I further authorize the stated URI to perform the following actions on my behalf:\\n\\nURI: lit:session:4f17d4b64ace3d2bac70b65eaea98b2922681e420795be96fa0f7ce785517763\\nVersion: 1\\nChain ID: 1\\nNonce: 0xd7e2db28f055257ead83c3a5ca1a4c8f721c0c9859120eb92d0dba739f7c212b\\nIssued At: 2024-03-17T18:45:47Z\\nExpiration Time: 2024-03-18T18:45:56.312Z\\nResources:\\n- urn:recap:eyJhdHQiOnt9LCJwcmYiOltdfQ",
+                "address":"0x9aCb7dC862E530582b6B9379AF5bBc73316A1DFa"
+            }],
+            "issuedAt":"2024-03-17T18:46:01.779Z",
+            "expiration":"2024-03-17T18:51:01.779Z",
+            "nodeAddress":"https://cayenne.litgateway.com:7372"
+        }',
+        address: '98d56ec67d15a4d924197b3e4e56c8f9a86859f7364c49ee926986603e982ca8',
+        algo: 'ed25519'
+    }
+},
+```
+
+
+
+enc:
+```
+{
+  'https://cayenne.litgateway.com:7370': {
+    sig: '53732a7490e12e85ec3442aaa071d490722730fffbb5771b8fcb973164bac3dc47e10e99e803c7691d7a6db8e944627717edb64550a4e253a1aa3d670521a108',
+    derivedVia: 'litSessionSignViaNacl',
+    signedMessage: '{
+        "sessionKey":"9060a31f0296517e735bb6ef5f08f065b9ec54b5f722745285f46b0844c797c3",
+        "resourceAbilityRequests":[{
+            "resource":{
+                "resource":"hashedEncryptedSymmetricKeyString",
+                "resourcePrefix":"lit-accesscontrolcondition"
+            },
+            "ability":"access-control-condition-decryption"
+        }],
+        "capabilities":[{
+            "sig":"0x96952de43b7c63485dbdeb721e798482104d868a79d940b867465cb09250b1081bf5feac3053b830c26041aacfa53d0e02faa274ea0fd6b8a563f0bc770cb4051b",
+            "derivedVia":"web3.eth.personal.sign via Lit PKP",
+            "signedMessage":"litprotocol.com wants you to sign in with your Ethereum account:\\n0x9aCb7dC862E530582b6B9379AF5bBc73316A1DFa\\n\\nLit Protocol PKP session signature I further authorize the stated URI to perform the following actions on my behalf:\\n\\nURI: lit:session:f65c87b27fe997d619adeaba0bc7125573fdf84671d1f95af0ff850587e45cfc\\nVersion: 1\\nChain ID: 1\\nNonce: 0x859910083d08bc26ff9aec10ba5deb90e9052377a669864cd8de5822cc3f9d1a\\nIssued At: 2024-03-17T18:42:23Z\\nExpiration Time: 2024-03-18T18:42:34.478Z\\nResources:\\n- urn:recap:eyJhdHQiOnt9LCJwcmYiOltdfQ",
+            "address":"0x9aCb7dC862E530582b6B9379AF5bBc73316A1DFa"
+        }],
+        "issuedAt":"2024-03-17T18:42:39.990Z",
+        "expiration":"2024-03-17T18:47:39.990Z",
+        "nodeAddress":"https://cayenne.litgateway.com:7370"
+    }',
+    address: '9060a31f0296517e735bb6ef5f08f065b9ec54b5f722745285f46b0844c797c3',
+    algo: 'ed25519'
+  },
+  'https://cayenne.litgateway.com:7371': {
+    sig: 'b0e73aec6b2b3228873100597cbd5956d44ff19a7ed10acad06a26e2d5c5d8ff23016c6a0bac065dc00c8a1c193d96b83abc27eb952418f51cd9ae927531ca0c',
+    derivedVia: 'litSessionSignViaNacl',
+    signedMessage: '{"sessionKey":"9060a31f0296517e735bb6ef5f08f065b9ec54b5f722745285f46b0844c797c3","resourceAbilityRequests":[{"resource":{"resource":"hashedEncryptedSymmetricKeyString","resourcePrefix":"lit-accesscontrolcondition"},"ability":"access-control-condition-decryption"}],"capabilities":[{"sig":"0x96952de43b7c63485dbdeb721e798482104d868a79d940b867465cb09250b1081bf5feac3053b830c26041aacfa53d0e02faa274ea0fd6b8a563f0bc770cb4051b","derivedVia":"web3.eth.personal.sign via Lit PKP","signedMessage":"litprotocol.com wants you to sign in with your Ethereum account:\\n0x9aCb7dC862E530582b6B9379AF5bBc73316A1DFa\\n\\nLit Protocol PKP session signature I further authorize the stated URI to perform the following actions on my behalf:\\n\\nURI: lit:session:f65c87b27fe997d619adeaba0bc7125573fdf84671d1f95af0ff850587e45cfc\\nVersion: 1\\nChain ID: 1\\nNonce: 0x859910083d08bc26ff9aec10ba5deb90e9052377a669864cd8de5822cc3f9d1a\\nIssued At: 2024-03-17T18:42:23Z\\nExpiration Time: 2024-03-18T18:42:34.478Z\\nResources:\\n- urn:recap:eyJhdHQiOnt9LCJwcmYiOltdfQ","address":"0x9aCb7dC862E530582b6B9379AF5bBc73316A1DFa"}],"issuedAt":"2024-03-17T18:42:39.990Z","expiration":"2024-03-17T18:47:39.990Z","nodeAddress":"https://cayenne.litgateway.com:7371"}',
+    address: '9060a31f0296517e735bb6ef5f08f065b9ec54b5f722745285f46b0844c797c3',
+    algo: 'ed25519'
+  },
+  'https://cayenne.litgateway.com:7372': {
+    sig: 'd8507532ea39e64928e1b2ac6b130f053e60dca11092f08c4aedc3859eee516c3636e6a3f67c0b4a77424e43c2415462650f2db28d3d03b68d3d81e120317109',
+    derivedVia: 'litSessionSignViaNacl',
+    signedMessage: '{"sessionKey":"9060a31f0296517e735bb6ef5f08f065b9ec54b5f722745285f46b0844c797c3","resourceAbilityRequests":[{"resource":{"resource":"hashedEncryptedSymmetricKeyString","resourcePrefix":"lit-accesscontrolcondition"},"ability":"access-control-condition-decryption"}],"capabilities":[{"sig":"0x96952de43b7c63485dbdeb721e798482104d868a79d940b867465cb09250b1081bf5feac3053b830c26041aacfa53d0e02faa274ea0fd6b8a563f0bc770cb4051b","derivedVia":"web3.eth.personal.sign via Lit PKP","signedMessage":"litprotocol.com wants you to sign in with your Ethereum account:\\n0x9aCb7dC862E530582b6B9379AF5bBc73316A1DFa\\n\\nLit Protocol PKP session signature I further authorize the stated URI to perform the following actions on my behalf:\\n\\nURI: lit:session:f65c87b27fe997d619adeaba0bc7125573fdf84671d1f95af0ff850587e45cfc\\nVersion: 1\\nChain ID: 1\\nNonce: 0x859910083d08bc26ff9aec10ba5deb90e9052377a669864cd8de5822cc3f9d1a\\nIssued At: 2024-03-17T18:42:23Z\\nExpiration Time: 2024-03-18T18:42:34.478Z\\nResources:\\n- urn:recap:eyJhdHQiOnt9LCJwcmYiOltdfQ","address":"0x9aCb7dC862E530582b6B9379AF5bBc73316A1DFa"}],"issuedAt":"2024-03-17T18:42:39.990Z","expiration":"2024-03-17T18:47:39.990Z","nodeAddress":"https://cayenne.litgateway.com:7372"}',
+    address: '9060a31f0296517e735bb6ef5f08f065b9ec54b5f722745285f46b0844c797c3',
+    algo: 'ed25519'
+  }
+}
+```
